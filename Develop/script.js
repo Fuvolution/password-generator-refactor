@@ -40,4 +40,27 @@ function prompts() {
   if(isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128){
     alert("This input is not valid. Your input should be a number that is at least 8 and no more than 128. Please try again");
   }
+  var promptAnswer; 
+  
+  promptAnswer = prompt("Do you want your password to have lowercase characters? (yes or no)");
+  if (promptAnswer == 'yes'){
+    charactersAllowed = charactersAllowed.concat(lowercaseCharacters);
+  }
+
+  promptAnswer = prompt("Do you want your password to have uppercase characters? (yes or no)");
+  if (promptAnswer == 'yes'){
+    charactersAllowed = charactersAllowed.concat(uppercaseCharacters);
+  }
+
+  promptAnswer = prompt("Do you want your password to have special characters? (yes or no)");
+  if (promptAnswer == 'yes'){
+    charactersAllowed = charactersAllowed.concat(specialCharacters);
+  }
+
+  promptAnswer = prompt("Do you want your password to have numbers? (yes or no)");
+  if (promptAnswer == 'yes'){
+    charactersAllowed = charactersAllowed.concat(numbers);
+  }
+
+  return true; 
 }
