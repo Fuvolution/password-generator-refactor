@@ -4,6 +4,6 @@ I refactor the provided starter code for a password generator, so the password g
 
 The user first clicks on the Generate Password Button to start the process of specifying what criterias the user wants their password to fulfill. After answering the prompts, this password generator displays the newly generated password inside the dashed-line box. 
 
-Link to deployed application: file:///C:/Users/Phuc%20Bao%20Dinh/password-generator-refactor/Develop/index.html 
+Link to deployed application: [Password Generator Deployed](https://fuvolution.github.io/password-generator-refactor/)
 
 Image of deployed application: ![Password Generator](https://github.com/Fuvolution/password-generator-refactor/blob/main/image.png)
