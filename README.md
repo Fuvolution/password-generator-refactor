@@ -6,4 +6,4 @@ The user first clicks on the Generate Password Button to start the process of sp
 
 Link to deployed application: file:///C:/Users/Phuc%20Bao%20Dinh/password-generator-refactor/Develop/index.html 
 
-Image of deployed application: C:\Users\Phuc Bao Dinh\password-generator-refactor\image.png
+Image of deployed application: ![Password Generator](https://github.com/Fuvolution/password-generator-refactor/blob/main/image.png)
